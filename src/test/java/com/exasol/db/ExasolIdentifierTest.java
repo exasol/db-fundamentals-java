@@ -25,6 +25,7 @@ class ExasolIdentifierTest {
         assertThat(ExasolIdentifier.validate(id), equalTo(false));
     }
 
+    @Test
     void testValdiateFalseWhenNull() {
         assertThat(ExasolIdentifier.validate(null), equalTo(false));
     }
