@@ -22,22 +22,20 @@ Base objects and ground rules for the Exasol database.
 
 ## Features
 
-* Base objects
-* Key words
-* Fundamental rules (e.g. quoting)
+* Base objects (e.g. Identifiers)
 
 ## Table of Contents
+
+### In a Nutshell
+
+```
+final Identifier id = ExasolIdentifier.of("THE_SCHEMA"); // validates on construction
+System.out.println("Schema name: " + id + ", quoted: " + id.quote());
+```
 
 ### Information for Users
 
 * [User Guide](doc/user_guide/user_guide.md)
-
-### Information for Contributors
-
-Requirement, design documents and coverage tags are written in [OpenFastTrace](https://github.com/itsallcode/openfasttrace) format.
-
-* [System Requirement Specification](doc/system_requirements.md)
-* [Design](doc/design.md)
 
 ### Run Time Dependencies
 
