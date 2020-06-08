@@ -6,7 +6,7 @@ This project contains a library that offers support for the most basic building 
 
 Each database product has a set of defining traits, some of which stem from the SQL standard, whereas others are database-specific. 
 
-Identifiers for example are a case where sources apply. The Standard defines general limitations on identifiers, e.g. that an unquoted identifier cannot contain spaces. Additionally, Exasol adds rules what characters can an cannot be used in identifiers.
+Identifiers for example are a case where sources apply. The Standard defines general limitations on identifiers, e.g. that an unquoted identifier cannot contain spaces. Additionally, Exasol adds rules what characters can and cannot be used in identifiers.
 
 The main purpose of this library is to make sure that Java clients accessing Exasol don't need to individually implement the base objects and ground rules, but instead can rely on a ready-made API that makes sure, those things are handled correctly.
 
@@ -14,7 +14,7 @@ The main purpose of this library is to make sure that Java clients accessing Exa
 
 ### Ensuring Identifier Validity
 
-One of the most often used base object in any database is the identifier. Identifiers are names of database objects like schemas, tables, users and so on.
+One of the most often used base objects in any database is the identifier. Identifiers are names of database objects like schemas, tables, users and so on.
 
 Since client code often contains variable identifiers, validity checking is important. To achieve that, replace all instances in your code where you handle object names as strings with identifier objects.
 
