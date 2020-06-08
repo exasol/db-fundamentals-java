@@ -28,7 +28,7 @@ Base objects and ground rules for the Exasol database.
 
 ### In a Nutshell
 
-```
+```java
 final Identifier id = ExasolIdentifier.of("THE_SCHEMA"); // validates on construction
 System.out.println("Schema name: " + id + ", quoted: " + id.quote());
 ```
