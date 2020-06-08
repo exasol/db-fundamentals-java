@@ -1,7 +1,9 @@
 package com.exasol.db;
 
+/**
+ * Interface for database object identifiers.
+ */
 public interface Identifier {
-
     /**
      * Get the identifier as a {@link String}.
      *
@@ -15,5 +17,4 @@ public interface Identifier {
      * @return quoted identifier
      */
     String quote();
-
 }
