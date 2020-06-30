@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.exasol</groupId>
     <artifactId>db-fundamentals-java</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <name>Exasol Database fundamentals for Java</name>
     <description>Base objects and ground rules for Exasol.</description>
     <properties>
