@@ -2,7 +2,7 @@
 
 <!-- img alt="db-fundamentals-java logo" src="doc/images/db-fundamentals-java_128x128.png" style="float:left; padding:0px 10px 10px 10px;"/ -->
 
-[![Build Status](https://api.travis-ci.com/exasol/db-fundamentals-java.svg?branch=master)](https://travis-ci.org/exasol/db-fundamentals-java)
+[![Build Status](https://travis-ci.com/exasol/db-fundamentals-java.svg?branch=main)](https://travis-ci.com/exasol/db-fundamentals-java)
 [![Maven Central](https://img.shields.io/maven-central/v/com.exasol/db-fundamentals-java)](https://search.maven.org/artifact/com.exasol/db-fundamentals-java)
 
 SonarCloud results:
