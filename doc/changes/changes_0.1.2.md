@@ -1,4 +1,4 @@
-# Exasol Database fundamentals for Java 0.1.2, released 2021-??-??
+# Exasol Database fundamentals for Java 0.1.2, released 05.07.2021
 
 Code name:
 
