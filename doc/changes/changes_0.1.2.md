@@ -1,6 +1,6 @@
 # Exasol Database fundamentals for Java 0.1.2, released 2021-07-06
 
-Code name:
+Code name: Fixed transitive CVE
 
 ## Bugfixes
 
