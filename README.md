@@ -2,10 +2,8 @@
 
 <!-- img alt="db-fundamentals-java logo" src="doc/images/db-fundamentals-java_128x128.png" style="float:left; padding:0px 10px 10px 10px;"/ -->
 
-[![Build Status](https://travis-ci.com/exasol/db-fundamentals-java.svg?branch=main)](https://travis-ci.com/exasol/db-fundamentals-java)
+[![Build Status](https://github.com/exasol/db-fundamentals-java/actions/workflows/ci-build.yml/badge.svg)](https://github.com/exasol/db-fundamentals-java/actions/workflows/ci-build.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.exasol/db-fundamentals-java)](https://search.maven.org/artifact/com.exasol/db-fundamentals-java)
-
-SonarCloud results:
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.exasol%3Adb-fundamentals-java&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.exasol%3Adb-fundamentals-java)
 
@@ -38,35 +36,4 @@ System.out.println("Schema name: " + id + ", quoted: " + id.quote());
 
 * [User Guide](doc/user_guide/user_guide.md)
 * [Changelog](doc/changes/changelog.md)
-
-### Run Time Dependencies
-
-Running the Virtual Schema requires a Java Runtime version 11 or later.
-
-### Test Dependencies
-
-| Dependency                                                                          | Purpose                                                | License                       |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------|
-| [Java Hamcrest](http://hamcrest.org/JavaHamcrest/)                                  | Checking for conditions in code via matchers           | BSD License                   |
-| [JUnit](https://junit.org/junit5)                                                   | Unit testing framework                                 | Eclipse Public License 1.0    |
-| [Mockito](http://site.mockito.org/)                                                 | Mocking framework                                      | MIT License                   |
-| [Equals Verifier](https://jqno.nl/equalsverifier/)                                  | Validate contract of `equals()` and `hashCode()`       | Apache License 2.0            |
-
-### Build Dependencies
-
-| Dependency                                                                          | Purpose                                                | License                       |
-|-------------------------------------------------------------------------------------|--------------------------------------------------------|-------------------------------|
-| [Apache Maven](https://maven.apache.org/)                                           | Build tool                                             | Apache License 2.0            |
-| [Maven Compiler Plugin](https://maven.apache.org/plugins/maven-compiler-plugin/)    | Setting required Java version                          | Apache License 2.0            |
-| [Maven Enforcer Plugin][maven-enforcer-plugin]                                      | Controlling environment constants                      | Apache License 2.0            |
-| [Maven GPG Plugin](http://maven.apache.org/plugins/maven-gpg-plugin/)               | Code signing                                           | Apache License 2.0            |
-| [Maven Jacoco Plugin](https://www.eclemma.org/jacoco/trunk/doc/maven.html)          | Code coverage metering                                 | Eclipse Public License 2.0    |
-| [Maven Javadoc Plugin][maven-javadoc-plugin]                                        | Creating a Javadoc JAR                                 | Apache License 2.0            |
-| [Maven Source Plugin](https://maven.apache.org/plugins/maven-source-plugin/)        | Creating a source code JAR                             | Apache License 2.0            |
-| [Maven Surefire Plugin](https://maven.apache.org/surefire/maven-surefire-plugin/)   | Unit testing                                           | Apache License 2.0            |
-| [Sonatype OSS Index Maven Plugin][sonatype-oss-index-maven-plugin]                  | Checking Dependencies Vulnerability                    | ASL2                          |
-| [Versions Maven Plugin][versions-maven-plugin]                                      | Checking if dependencies updates are available         | Apache License 2.0            |
-
-[maven-enforcer-plugin]: http://maven.apache.org/enforcer/maven-enforcer-plugin/
-[sonatype-oss-index-maven-plugin]: https://sonatype.github.io/ossindex-maven/maven-plugin/
-[versions-maven-plugin]: https://www.mojohaus.org/versions-maven-plugin/
+* [Dependencies](dependencies.md)

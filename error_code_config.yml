@@ -1,0 +1,4 @@
+error-tags:
+  DBFJ:
+    packages:
+      - com.exasol.db
