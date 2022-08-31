@@ -1,10 +1,10 @@
 # Exasol Database Fundamentals
 
-This project contains a library that offers support for the most basic building blocks of the Exasol database, like [identifiers](https://intranet.srv.exasol.com/display/TOOLTIPS/Travis+CI+Invoices) and [keywords](). It also implements rules that the Exasol database follows &mdash; for example quoting. 
+This project contains a library that offers support for the most basic building blocks of the Exasol database, like [identifiers](https://docs.exasol.com/db/latest/sql_references/basiclanguageelements.htm#SQLIdentifier) and keywords. It also implements rules that the Exasol database follows &mdash; for example quoting.
 
 ## Introduction
 
-Each database product has a set of defining traits, some of which stem from the SQL standard, whereas others are database-specific. 
+Each database product has a set of defining traits, some of which stem from the SQL standard, whereas others are database-specific.
 
 Identifiers for example are a case where sources apply. The Standard defines general limitations on identifiers, e.g. that an unquoted identifier cannot contain spaces. Additionally, Exasol adds rules what characters can and cannot be used in identifiers.
 
