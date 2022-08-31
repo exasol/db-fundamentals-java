@@ -12,6 +12,13 @@ This release upgrades dependencies.
 
 ## Dependency Updates
 
+### Test Dependency Updates
+
+* Updated `nl.jqno.equalsverifier:equalsverifier:3.4.1` to `3.10.1`
+* Updated `org.junit.jupiter:junit-jupiter-engine:5.6.2` to `5.9.0`
+* Updated `org.junit.jupiter:junit-jupiter-params:5.6.2` to `5.9.0`
+* Updated `org.mockito:mockito-junit-jupiter:3.3.3` to `4.7.0`
+
 ### Plugin Dependency Updates
 
 * Updated `com.exasol:error-code-crawler-maven-plugin:0.5.0` to `1.1.2`
