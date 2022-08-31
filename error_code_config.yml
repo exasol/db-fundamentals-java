@@ -2,3 +2,4 @@ error-tags:
   DBFJ:
     packages:
       - com.exasol.db
+    highest-index: 1
