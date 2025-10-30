@@ -1,7 +1,7 @@
 # Exasol Database Fundamentals for Java
 
 [![Build Status](https://github.com/exasol/db-fundamentals-java/actions/workflows/ci-build.yml/badge.svg)](https://github.com/exasol/db-fundamentals-java/actions/workflows/ci-build.yml)
-[![Maven Central – Exasol Database fundamentals for Java](https://img.shields.io/maven-central/v/com.exasol/db-fundamentals-java)](https://search.maven.org/artifact/com.exasol/db-fundamentals-java)
+[![Maven Central &ndash; Exasol Database fundamentals for Java](https://img.shields.io/maven-central/v/com.exasol/db-fundamentals-java)](https://search.maven.org/artifact/com.exasol/db-fundamentals-java)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=com.exasol%3Adb-fundamentals-java&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.exasol%3Adb-fundamentals-java)
 
