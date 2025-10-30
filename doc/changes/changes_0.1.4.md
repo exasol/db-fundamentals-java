@@ -10,10 +10,10 @@ This release updates project keeper and dependencies.
 
 ### Test Dependency Updates
 
-* Updated `nl.jqno.equalsverifier:equalsverifier:3.10.1` to `4.2.1`
+* Updated `nl.jqno.equalsverifier:equalsverifier:3.10.1` to `3.19.4`
 * Updated `org.hamcrest:hamcrest:2.2` to `3.0`
 * Removed `org.junit.jupiter:junit-jupiter-engine:5.9.0`
-* Updated `org.junit.jupiter:junit-jupiter-params:5.9.0` to `6.0.0`
+* Updated `org.junit.jupiter:junit-jupiter-params:5.9.0` to `5.13.4`
 * Updated `org.mockito:mockito-junit-jupiter:4.7.0` to `5.20.0`
 
 ### Plugin Dependency Updates
